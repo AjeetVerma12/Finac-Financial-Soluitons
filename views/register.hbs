@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stye.css">
+    <script src="https://kit.fontawesome.com/c0e27fec68.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Sign Up to Finac</title>
+</head>
+
+<body style="background-color:#1e1e1e ;">
+
+    <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="css/fontawesome.css">
+  <link rel="stylesheet" href="css/templatemo-finance-business.css">
+  <link rel="stylesheet" href="css/owl.css">
+
+
+<header class="">
+   
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="/index"><h2>Finac Financial Services</h2></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/index">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about">About Us</a>
+            </li>  
+            <li class="nav-item">
+              <a class="nav-link" href="/services">Our Services</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link" href="/contact">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="/login" class="filled-button">Log In</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+     <br>
+
+    <div class='login-outer-container'>
+        <div class='login-container'>
+            <div class='login-area'>
+                <h3>REGISTER TO FINAC</h3>
+                <form action="/register" method= "POST" class='login-items'>
+                    <label htmlFor="name">Name</label>
+                    <input type="text" class='login' name="username" placeholder='Your name' required />
+                    <label htmlFor="email">Email</label>
+                    <input type="email" class='login' name="email" placeholder="your-email@gmail.com" required />
+                    <label htmlFor="password">Password</label>
+                    <input type="password" class='login' name="password" id="" placeholder='Enter password' required />
+                    <label htmlFor="password">Confirm Password</label>
+                    <input type="password" class='login' name="confirmpassword" id="" placeholder='Re-Enter password' required />
+                    <input type="submit" class='login-btn' value="Register" />
+                </form>
+                <p class='p'>Already have an account?
+                    <a class='a' href="/login">Please Login</a>
+                </p>
+
+                <div class='social-login-container'>
+                    <p class='prompt'>or</p>
+                    <div class='social-login'>
+                        <button class='google-signin'><i class="fa-brands fa-google"></i> Login with Google</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/templatemo-finance-business.css">
+    <link rel="stylesheet" href="css/owl.css">
+    {{>footer}}
+</body>
+
+</html>
